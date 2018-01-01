@@ -1,0 +1,7 @@
+{
+  "profiles": {
+    "Devpro.VstsClient.ConsoleApp": {
+      "commandName": "Project"
+    }
+  }
+}
