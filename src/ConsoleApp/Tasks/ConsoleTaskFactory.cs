@@ -17,6 +17,8 @@ namespace Devpro.VstsClient.ConsoleApp.Tasks
         {
             switch(key)
             {
+                case BuildsTask.ArgumentName:
+                    return new BuildsTask(serviceProvider);
                 case IterationsTask.ArgumentName:
                     return new IterationsTask(serviceProvider);
                 default:

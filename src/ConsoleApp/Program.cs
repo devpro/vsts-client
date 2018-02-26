@@ -59,6 +59,7 @@ namespace Devpro.VstsClient.ConsoleApp
             // add project deficitions
             services.AddTransient<VstsApiLib.IConfigurationService>(x => new ConfigurationService(args[3])); // TODO: to be improved
             services.AddScoped<VstsApiLib.HttpClientWrapper>();
+            services.AddTransient<VstsApiLib.BuildService>();
             services.AddTransient<VstsApiLib.IterationService>();
 
             var serviceProvider = services.BuildServiceProvider();

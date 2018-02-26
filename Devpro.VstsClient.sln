@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.27130.2003
+VisualStudioVersion = 15.0.27130.2027
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Devpro.VstsClient.ConsoleApp", "src\ConsoleApp\Devpro.VstsClient.ConsoleApp.csproj", "{2AEE03F8-CAF7-497E-8441-E4B255FF0A74}"
 EndProject
@@ -11,6 +11,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 	ProjectSection(SolutionItems) = preProject
 		readme.md = readme.md
 	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Devpro.VstsClient.VstsApiLibUnitTests", "test\VstsApiLibUnitTests\Devpro.VstsClient.VstsApiLibUnitTests.csproj", "{093CB507-DB07-418B-9DB2-71CCFCFCB9F6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -26,6 +28,10 @@ Global
 		{A25EF573-2E4D-46D7-A847-4C6F849B37AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A25EF573-2E4D-46D7-A847-4C6F849B37AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A25EF573-2E4D-46D7-A847-4C6F849B37AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{093CB507-DB07-418B-9DB2-71CCFCFCB9F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{093CB507-DB07-418B-9DB2-71CCFCFCB9F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{093CB507-DB07-418B-9DB2-71CCFCFCB9F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{093CB507-DB07-418B-9DB2-71CCFCFCB9F6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
